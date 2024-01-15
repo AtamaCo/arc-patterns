@@ -1,0 +1,8 @@
+.llama-info {
+  background: rgb(162,51,91);
+background: linear-gradient(90deg, rgba(162,51,91,1) 0%, rgba(231,29,72,1) 35%, rgba(155,111,143,1) 58%, rgba(55,105,178,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  max-width: 400px;
+}

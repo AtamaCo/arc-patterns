@@ -67,5 +67,4 @@ query Products($term: String!)
         }
     }
 }
-
 `;

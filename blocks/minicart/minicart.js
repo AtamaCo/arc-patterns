@@ -39,7 +39,6 @@ async function addItemToGuestCart() {
   });
 
   const jsonData = await result.json();
-  console.log(jsonData?.data?.addSimpleProductsToCart?.cart);
   document.getElementById('minicart').dispatchEvent(new Event('minicart-refresh'));
   return jsonData?.data?.addSimpleProductsToCart?.cart;
 }
@@ -136,7 +135,6 @@ query Products($term: String!)
 const MAGENTO_GUEST_CART_QUERY = `#graphql
 query GuestCart($cartId: String!)
 {
-  
     cart(cart_id: $cartId) {
         items {
             quantity
